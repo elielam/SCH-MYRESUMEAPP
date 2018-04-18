@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.elbase.fr.myresumeapp.SkillsActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="451dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="34dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            app:srcCompat="?android:attr/actionModeCutDrawable" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:gravity="center"
+            android:text="SKILLS"
+            android:textSize="22px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:focusable="false"
+            />
+
+        <TextView
+            android:id="@+id/textViewProgress"
+            android:layout_width="match_parent0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Skill 1"
+            android:gravity="center"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="229dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="307dp" />
+
+        <TextView
+            android:id="@+id/textViewProgress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skill 2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="288dp"
+            android:gravity="center"  />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="366dp" />
+
+        <TextView
+            android:id="@+id/textViewProgress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skill 3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="347dp"
+            android:gravity="center"  />
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="426dp" />
+
+        <TextView
+            android:id="@+id/textViewProgress3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skill 4"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="407dp"
+            android:gravity="center"  />
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="191dp" />
+
+        <TextView
+            android:id="@+id/textViewProgress4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skill 5"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="171dp"
+            android:gravity="center"  />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="248dp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

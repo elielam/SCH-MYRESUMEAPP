@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyResumeApp</string>
+    <string name="title_activity_skills">SkillsActivity</string>
+</resources>
